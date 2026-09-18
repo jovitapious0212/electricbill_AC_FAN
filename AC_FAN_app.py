@@ -8,7 +8,7 @@ st.title("Electric Bill Prediction")
 st.write("Enter AC Units and Fan Units to predict the Electric Bill.")
 
 # Load the trained model
-model = joblib.load("electricity_bill_prediction_model.pkl")
+model = joblib.load("electric_bill_prediction_model.pkl")
 
 # Create polynomial transformer
 poly = PolynomialFeatures(degree=2)
